@@ -1,0 +1,90 @@
+{
+  "Success": {
+    "code": 200,
+    "message": "Success",
+    "zh": "请求成功"
+  },
+  "UnAuthorized": {
+      "code": 401000,
+      "message": "You are not authorized to do this",
+      "zh": "未授权"
+  },
+  "InvalidToken": {
+      "code": 401001,
+      "message": "Invalid token",
+      "zh": "令牌无效"
+  },
+  "AdminRequired": {
+      "code": 401002,
+      "message": "Admin Required",
+      "zh": "需要管理员权限"
+  },
+
+  "LoginRequired": {
+      "code": 402000,
+      "message": "Login Required",
+      "zh": "需要先登录"
+  },
+  "InvalidPassword": {
+      "code": 402001,
+      "message": "Password length should min 6 and max 15",
+      "zh": "密码为6-15位字符"
+  },
+  "PasswordWrongOrUserNotExist": {
+      "code": 402002,
+      "message": "password wrong or user not exists",
+      "zh": "密码错误或用户不存在"
+  },
+
+  "InvalidParameter": {
+      "code": 403000,
+      "message": "Parameter is wrong",
+      "zh": "参数错误"
+  },
+  "ParameterLacked": {
+      "code": 403001,
+      "message": "Parameter lacked",
+      "zh": "缺少参数"
+  },
+  "InvalidNumber": {
+      "code": 403002,
+      "message": "Number format wrong",
+      "zh": "数字错误"
+  },
+  "InvalidUrl": {
+      "code": 403003,
+      "message": "Invalid url",
+      "zh": "url 地址无效"
+  },
+  "ArrayRequired": {
+      "code": 403004,
+      "message": "Array required",
+      "zh": "参数应该是数组"
+  },
+  "InvalidId": {
+      "code": 403005,
+      "message": "Id is invalid",
+      "zh": "id 错误"
+  },
+  "InvalidEmail": {
+      "code": 403006,
+      "message": "Email format wrong",
+      "zh": "邮箱格式错误"
+  },
+  "InvalidPhone": {
+      "code": 403007,
+      "message": "Phone number is invalid",
+      "zh": "手机号码无效"
+  },
+
+  "NoSuchFile": {
+      "code": 404000,
+      "message": "No such file",
+      "zh":"文件不存在"
+  },
+  "NoUserInfo": {
+      "code": 404001,
+      "message": "There is no info of this user",
+      "zh": "无此用户信息"
+  }
+}

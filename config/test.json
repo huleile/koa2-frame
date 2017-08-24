@@ -1,0 +1,17 @@
+{
+  "config": "test",
+  "postgres": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "user": "hully",
+    "password": "hully",
+    "database": "wx"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "redisdb": 11
+  },
+  "uploadFolder": "/Users/hully/hully/github/uploads",
+  "secret": "hullykoa"
+}

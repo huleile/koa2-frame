@@ -1,0 +1,309 @@
+[2017-08-23 12:23:05.861] [ERROR] console - TypeError: app.set is not a function
+    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-08-23 12:23:05.866] [ERROR] console - app.set is not a function { stack: 'TypeError: app.set is not a function\n    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)\n    at Module._compile (module.js:569:30)\n    at Object.Module._extensions..js (module.js:580:10)\n    at Module.load (module.js:503:32)\n    at tryModuleLoad (module.js:466:12)\n    at Function.Module._load (module.js:458:3)\n    at Function.Module.runMain (module.js:605:10)\n    at startup (bootstrap_node.js:158:16)\n    at bootstrap_node.js:575:3' }
+[2017-08-23 12:23:05.873] [ERROR] console - TypeError: logger.info is not a function
+    at RedisClient.<anonymous> (/Users/hully/hully/github/test2/common/redis.js:22:12)
+    at emitNone (events.js:105:13)
+    at RedisClient.emit (events.js:207:7)
+    at RedisClient.on_connect (/Users/hully/hully/github/test2/node_modules/_redis@2.8.0@redis/index.js:422:10)
+    at Socket.<anonymous> (/Users/hully/hully/github/test2/node_modules/_redis@2.8.0@redis/index.js:268:14)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:110:20)
+    at Socket.emit (events.js:207:7)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:10)
+[2017-08-23 12:23:05.874] [ERROR] console - logger.info is not a function { stack: 'TypeError: logger.info is not a function\n    at RedisClient.<anonymous> (/Users/hully/hully/github/test2/common/redis.js:22:12)\n    at emitNone (events.js:105:13)\n    at RedisClient.emit (events.js:207:7)\n    at RedisClient.on_connect (/Users/hully/hully/github/test2/node_modules/_redis@2.8.0@redis/index.js:422:10)\n    at Socket.<anonymous> (/Users/hully/hully/github/test2/node_modules/_redis@2.8.0@redis/index.js:268:14)\n    at Object.onceWrapper (events.js:314:30)\n    at emitNone (events.js:110:20)\n    at Socket.emit (events.js:207:7)\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:10)' }
+[2017-08-23 12:24:39.266] [ERROR] console - TypeError: app.set is not a function
+    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-08-23 12:24:39.271] [ERROR] console - app.set is not a function { stack: 'TypeError: app.set is not a function\n    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)\n    at Module._compile (module.js:569:30)\n    at Object.Module._extensions..js (module.js:580:10)\n    at Module.load (module.js:503:32)\n    at tryModuleLoad (module.js:466:12)\n    at Function.Module._load (module.js:458:3)\n    at Function.Module.runMain (module.js:605:10)\n    at startup (bootstrap_node.js:158:16)\n    at bootstrap_node.js:575:3' }
+[2017-08-23 12:24:39.277] [INFO] console - redis connect
+[2017-08-23 12:24:39.281] [INFO] console - redis ready
+[2017-08-23 12:24:39.281] [INFO] console - select redis db11
+[2017-08-23 12:25:58.389] [ERROR] console - TypeError: app.set is not a function
+    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)
+    at Module._compile (module.js:569:30)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:503:32)
+    at tryModuleLoad (module.js:466:12)
+    at Function.Module._load (module.js:458:3)
+    at Function.Module.runMain (module.js:605:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:575:3
+[2017-08-23 12:25:58.396] [ERROR] console - app.set is not a function { stack: 'TypeError: app.set is not a function\n    at Object.<anonymous> (/Users/hully/hully/github/test2/bin/www:18:5)\n    at Module._compile (module.js:569:30)\n    at Object.Module._extensions..js (module.js:580:10)\n    at Module.load (module.js:503:32)\n    at tryModuleLoad (module.js:466:12)\n    at Function.Module._load (module.js:458:3)\n    at Function.Module.runMain (module.js:605:10)\n    at startup (bootstrap_node.js:158:16)\n    at bootstrap_node.js:575:3' }
+[2017-08-23 12:25:58.404] [INFO] console - redis connect
+[2017-08-23 12:25:58.407] [INFO] console - redis ready
+[2017-08-23 12:25:58.408] [INFO] console - select redis db11
+[2017-08-23 12:26:35.633] [INFO] console - redis connect
+[2017-08-23 12:26:35.641] [INFO] console - redis ready
+[2017-08-23 12:26:35.642] [INFO] console - select redis db11
+[2017-08-23 12:26:41.186] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-23 12:26:41.200] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [33m404[39m [90m15ms[39m [90m-[39m
+[2017-08-23 12:27:20.756] [INFO] console -   [90m<--[39m [1mGET[22m [90m/config[39m
+[2017-08-23 12:27:20.760] [INFO] console -   [90m-->[39m [1mGET[22m [90m/config[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-23 12:27:35.451] [INFO] console -   [90m<--[39m [1mGET[22m [90m/string[39m
+[2017-08-23 12:27:35.454] [INFO] console -   [90m-->[39m [1mGET[22m [90m/string[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-23 12:27:56.269] [INFO] console -   [90m<--[39m [1mGET[22m [90m/books[39m
+[2017-08-23 12:27:56.436] [INFO] console -   [90m-->[39m [1mGET[22m [90m/books[39m [32m200[39m [90m168ms[39m [90m160b[39m
+[2017-08-23 13:12:44.215] [INFO] console -   [90m<--[39m [1mGET[22m [90m/string[39m
+[2017-08-23 13:12:44.227] [INFO] console -   [90m-->[39m [1mGET[22m [90m/string[39m [33m404[39m [90m13ms[39m [90m-[39m
+[2017-08-23 13:12:52.591] [INFO] console -   [90m<--[39m [1mGET[22m [90m/json[39m
+[2017-08-23 13:12:52.596] [INFO] console -   [90m-->[39m [1mGET[22m [90m/json[39m [33m404[39m [90m5ms[39m [90m-[39m
+[2017-08-23 13:13:00.133] [INFO] console -   [90m<--[39m [1mGET[22m [90m/home/json[39m
+[2017-08-23 13:13:00.140] [INFO] console -   [90m-->[39m [1mGET[22m [90m/home/json[39m [33m404[39m [90m7ms[39m [90m-[39m
+[2017-08-23 13:14:08.340] [INFO] console - books.js /books
+[2017-08-23 13:14:08.347] [INFO] console - home.js /
+[2017-08-23 13:14:08.351] [INFO] console - users.js /users
+[2017-08-23 13:14:08.431] [INFO] console - redis connect
+[2017-08-23 13:14:08.445] [INFO] console - redis ready
+[2017-08-23 13:14:08.446] [INFO] console - select redis db11
+[2017-08-23 14:15:32.706] [INFO] console -   [90m<--[39m [1mGET[22m [90m//json[39m
+[2017-08-23 14:15:32.718] [INFO] console -   [31mxxx[39m [1mGET[22m [90m//json[39m [33m400[39m [90m13ms[39m [90m-[39m
+[2017-08-23 14:15:44.132] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-23 14:15:44.141] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [33m404[39m [90m7ms[39m [90m-[39m
+[2017-08-23 15:03:14.443] [INFO] console - books.js /books
+[2017-08-23 15:03:14.460] [INFO] console - home.js /
+[2017-08-23 15:03:14.465] [INFO] console - users.js /users
+[2017-08-23 15:03:14.687] [INFO] console - redis connect
+[2017-08-23 15:03:14.707] [INFO] console - redis ready
+[2017-08-23 15:03:14.708] [INFO] console - select redis db11
+[2017-08-23 15:03:20.289] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-23 15:03:20.317] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [33m404[39m [90m27ms[39m [90m-[39m
+[2017-08-23 15:03:26.361] [INFO] console -   [90m<--[39m [1mGET[22m [90m/books[39m
+[2017-08-23 15:03:26.516] [INFO] console -   [90m-->[39m [1mGET[22m [90m/books[39m [32m200[39m [90m154ms[39m [90m160b[39m
+[2017-08-23 15:03:34.113] [INFO] console -   [90m<--[39m [1mGET[22m [90m/books/index[39m
+[2017-08-23 15:03:34.146] [INFO] console -   [90m-->[39m [1mGET[22m [90m/books/index[39m [32m200[39m [90m33ms[39m [90m262b[39m
+[2017-08-23 15:03:34.221] [INFO] console -   [90m<--[39m [1mGET[22m [90m/stylesheets/style.css[39m
+[2017-08-23 15:03:34.230] [INFO] console -   [90m-->[39m [1mGET[22m [90m/stylesheets/style.css[39m [33m404[39m [90m9ms[39m [90m-[39m
+[2017-08-23 15:07:53.195] [INFO] console -   [90m<--[39m [1mGET[22m [90m/doc[39m
+[2017-08-23 15:07:53.199] [INFO] console -   [90m-->[39m [1mGET[22m [90m/doc[39m [33m404[39m [90m4ms[39m [90m-[39m
+[2017-08-23 15:47:01.964] [INFO] console -   [90m<--[39m [1mGET[22m [90m/doc[39m
+[2017-08-23 15:47:02.026] [INFO] console -   [90m-->[39m [1mGET[22m [90m/doc[39m [32m200[39m [90m62ms[39m [90m26.93kb[39m
+[2017-08-23 15:47:02.143] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/bootstrap.min.css[39m
+[2017-08-23 15:47:02.152] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/prettify.css[39m
+[2017-08-23 15:47:02.153] [INFO] console -   [90m<--[39m [1mGET[22m [90m/css/style.css[39m
+[2017-08-23 15:47:02.156] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/polyfill.js[39m
+[2017-08-23 15:47:02.159] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/require.min.js[39m
+[2017-08-23 15:47:02.164] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/bootstrap.min.css[39m [33m404[39m [90m21ms[39m [90m-[39m
+[2017-08-23 15:47:02.171] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/prettify.css[39m [33m404[39m [90m18ms[39m [90m-[39m
+[2017-08-23 15:47:02.179] [INFO] console -   [90m-->[39m [1mGET[22m [90m/css/style.css[39m [33m404[39m [90m25ms[39m [90m-[39m
+[2017-08-23 15:47:02.229] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/polyfill.js[39m [33m404[39m [90m73ms[39m [90m-[39m
+[2017-08-23 15:47:02.248] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/require.min.js[39m [33m404[39m [90m89ms[39m [90m-[39m
+[2017-08-23 15:47:02.767] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/require.min.js[39m
+[2017-08-23 15:47:02.771] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/require.min.js[39m [33m404[39m [90m4ms[39m [90m-[39m
+[2017-08-23 15:47:02.849] [INFO] console -   [90m<--[39m [1mGET[22m [90m/img/favicon.ico[39m
+[2017-08-23 15:47:02.859] [INFO] console -   [90m-->[39m [1mGET[22m [90m/img/favicon.ico[39m [33m404[39m [90m10ms[39m [90m-[39m
+[2017-08-23 15:47:29.713] [INFO] console -   [90m<--[39m [1mGET[22m [90m/doc/index[39m
+[2017-08-23 15:47:29.713] [INFO] console -   [90m-->[39m [1mGET[22m [90m/doc/index[39m [33m404[39m [90m0ms[39m [90m-[39m
+[2017-08-23 15:47:42.449] [INFO] console -   [90m<--[39m [1mGET[22m [90m/public/doc[39m
+[2017-08-23 15:47:42.450] [INFO] console -   [90m-->[39m [1mGET[22m [90m/public/doc[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2017-08-23 15:49:05.240] [INFO] console -   [90m<--[39m [1mGET[22m [90m/images/iu2[39m
+[2017-08-23 15:49:05.244] [INFO] console -   [90m-->[39m [1mGET[22m [90m/images/iu2[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-23 15:49:19.790] [INFO] console -   [90m<--[39m [1mGET[22m [90m/images/iu2.jpeg[39m
+[2017-08-23 15:49:19.792] [INFO] console -   [90m-->[39m [1mGET[22m [90m/images/iu2.jpeg[39m [32m200[39m [90m2ms[39m [90m21.2kb[39m
+[2017-08-23 15:49:46.264] [INFO] console -   [90m<--[39m [1mGET[22m [90m/images/iu2.jpeg[39m
+[2017-08-23 15:49:46.268] [INFO] console -   [90m-->[39m [1mGET[22m [90m/images/iu2.jpeg[39m [32m200[39m [90m4ms[39m [90m21.2kb[39m
+[2017-08-23 15:49:52.206] [INFO] console -   [90m<--[39m [1mGET[22m [90m/doc[39m
+[2017-08-23 15:49:52.210] [INFO] console -   [90m-->[39m [1mGET[22m [90m/doc[39m [32m200[39m [90m4ms[39m [90m26.93kb[39m
+[2017-08-23 15:49:52.272] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/bootstrap.min.css[39m
+[2017-08-23 15:49:52.279] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/prettify.css[39m
+[2017-08-23 15:49:52.279] [INFO] console -   [90m<--[39m [1mGET[22m [90m/css/style.css[39m
+[2017-08-23 15:49:52.282] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/polyfill.js[39m
+[2017-08-23 15:49:52.285] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/require.min.js[39m
+[2017-08-23 15:49:52.290] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/bootstrap.min.css[39m [33m404[39m [90m17ms[39m [90m-[39m
+[2017-08-23 15:49:52.293] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/prettify.css[39m [33m404[39m [90m14ms[39m [90m-[39m
+[2017-08-23 15:49:52.294] [INFO] console -   [90m-->[39m [1mGET[22m [90m/css/style.css[39m [33m404[39m [90m15ms[39m [90m-[39m
+[2017-08-23 15:49:52.296] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/polyfill.js[39m [33m404[39m [90m14ms[39m [90m-[39m
+[2017-08-23 15:49:52.298] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/require.min.js[39m [33m404[39m [90m13ms[39m [90m-[39m
+[2017-08-23 15:49:52.389] [INFO] console -   [90m<--[39m [1mGET[22m [90m/vendor/require.min.js[39m
+[2017-08-23 15:49:52.390] [INFO] console -   [90m-->[39m [1mGET[22m [90m/vendor/require.min.js[39m [33m404[39m [90m1ms[39m [90m-[39m
+[2017-08-24 16:30:15.142] [INFO] console - books.js /books
+[2017-08-24 16:30:15.149] [INFO] console - home.js /
+[2017-08-24 16:30:15.152] [INFO] console - users.js /users
+[2017-08-24 16:30:15.232] [INFO] console - redis connect
+[2017-08-24 16:30:15.237] [INFO] console - redis ready
+[2017-08-24 16:30:15.238] [INFO] console - select redis db11
+[2017-08-24 16:31:28.163] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-24 16:31:28.191] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m27ms[39m [90m262b[39m
+[2017-08-24 16:31:28.201] [INFO] console -   [90m<--[39m [1mGET[22m [90m/stylesheets/style.css[39m
+[2017-08-24 16:31:28.205] [INFO] console -   [90m-->[39m [1mGET[22m [90m/stylesheets/style.css[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-24 16:31:46.516] [INFO] console -   [90m<--[39m [1mGET[22m [90m/string[39m
+[2017-08-24 16:31:46.524] [INFO] console -   [90m-->[39m [1mGET[22m [90m/string[39m [33m404[39m [90m8ms[39m [90m-[39m
+[2017-08-24 16:32:03.818] [INFO] console -   [90m<--[39m [1mGET[22m [90m/json[39m
+[2017-08-24 16:32:03.821] [INFO] console -   [90m-->[39m [1mGET[22m [90m/json[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-24 16:32:07.995] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-24 16:32:08.006] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m11ms[39m [90m262b[39m
+[2017-08-24 16:32:08.019] [INFO] console -   [90m<--[39m [1mGET[22m [90m/stylesheets/style.css[39m
+[2017-08-24 16:32:08.023] [INFO] console -   [90m-->[39m [1mGET[22m [90m/stylesheets/style.css[39m [33m404[39m [90m4ms[39m [90m-[39m
+[2017-08-24 16:33:10.070] [INFO] console - Router {
+  opts: {},
+  methods: [ 'HEAD', 'OPTIONS', 'GET', 'PUT', 'PATCH', 'POST', 'DELETE' ],
+  params: {},
+  stack: 
+   [ Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/',
+       regexp: /^(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/',
+       regexp: /^(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/index',
+       regexp: /^\/index(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [Array],
+       stack: [Array],
+       path: '/:id',
+       regexp: /^\/((?:[^\/]+?))(?:\/(?=$))?$/i } ] }
+[2017-08-24 16:33:10.079] [INFO] console - books.js /books
+[2017-08-24 16:33:10.081] [INFO] console - Router {
+  opts: {},
+  methods: [ 'HEAD', 'OPTIONS', 'GET', 'PUT', 'PATCH', 'POST', 'DELETE' ],
+  params: {},
+  stack: 
+   [ Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/',
+       regexp: /^(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/string',
+       regexp: /^\/string(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/json',
+       regexp: /^\/json(?:\/(?=$))?$/i } ] }
+[2017-08-24 16:33:10.083] [INFO] console - home.js /
+[2017-08-24 16:33:10.086] [INFO] console - Router {
+  opts: {},
+  methods: [ 'HEAD', 'OPTIONS', 'GET', 'PUT', 'PATCH', 'POST', 'DELETE' ],
+  params: {},
+  stack: 
+   [ Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/',
+       regexp: /^(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/',
+       regexp: /^(?:\/(?=$))?$/i },
+     Layer {
+       opts: [Object],
+       name: null,
+       methods: [Array],
+       paramNames: [],
+       stack: [Array],
+       path: '/login',
+       regexp: /^\/login(?:\/(?=$))?$/i } ] }
+[2017-08-24 16:33:10.094] [INFO] console - users.js /users
+[2017-08-24 16:33:10.172] [INFO] console - redis connect
+[2017-08-24 16:33:10.176] [INFO] console - redis ready
+[2017-08-24 16:33:10.177] [INFO] console - select redis db11
+[2017-08-24 16:37:33.716] [INFO] console - index.js
+[2017-08-24 16:37:34.145] [INFO] console - redis connect
+[2017-08-24 16:37:34.149] [INFO] console - redis ready
+[2017-08-24 16:37:34.150] [INFO] console - select redis db11
+[2017-08-24 16:42:50.799] [INFO] console -   [90m<--[39m [1mGET[22m [90m/books[39m
+[2017-08-24 16:42:50.917] [INFO] console -   [90m-->[39m [1mGET[22m [90m/books[39m [32m200[39m [90m119ms[39m [90m160b[39m
+[2017-08-24 16:42:55.596] [INFO] console -   [90m<--[39m [1mGET[22m [90m/books/[39m
+[2017-08-24 16:42:55.610] [INFO] console -   [90m-->[39m [1mGET[22m [90m/books/[39m [32m200[39m [90m13ms[39m [90m160b[39m
+[2017-08-24 16:43:01.492] [INFO] console -   [90m<--[39m [1mGET[22m [90m/home/[39m
+[2017-08-24 16:43:01.495] [INFO] console -   [90m-->[39m [1mGET[22m [90m/home/[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-24 16:43:06.594] [INFO] console -   [90m<--[39m [1mGET[22m [90m/[39m
+[2017-08-24 16:43:06.610] [INFO] console -   [90m-->[39m [1mGET[22m [90m/[39m [32m200[39m [90m16ms[39m [90m262b[39m
+[2017-08-24 16:43:06.622] [INFO] console -   [90m<--[39m [1mGET[22m [90m/stylesheets/style.css[39m
+[2017-08-24 16:43:06.625] [INFO] console -   [90m-->[39m [1mGET[22m [90m/stylesheets/style.css[39m [33m404[39m [90m3ms[39m [90m-[39m
+[2017-08-24 16:43:22.475] [INFO] console -   [90m<--[39m [1mGET[22m [90m/json[39m
+[2017-08-24 16:43:22.484] [INFO] console -   [90m-->[39m [1mGET[22m [90m/json[39m [33m404[39m [90m9ms[39m [90m-[39m
+[2017-08-24 16:47:09.053] [INFO] console - redis connect
+[2017-08-24 16:47:09.062] [INFO] console - redis ready
+[2017-08-24 16:47:09.063] [INFO] console - select redis db11
+[2017-08-24 16:47:10.842] [INFO] console -   [90m<--[39m [1mGET[22m [90m/users[39m
+[2017-08-24 16:47:10.866] [INFO] console -   [31mxxx[39m [1mGET[22m [90m/users[39m [31m500[39m [90m24ms[39m [90m-[39m
+[2017-08-24 16:47:10.867] [ERROR] console - 
+[2017-08-24 16:47:10.868] [ERROR] console -   TypeError: h.error is not a function
+      at module.exports (/Users/hully/hully/github/test2/middlewares/error-handle.js:11:26)
+      at <anonymous>
+[2017-08-24 16:47:10.868] [ERROR] console - 
+[2017-08-24 16:49:53.827] [INFO] console - redis connect
+[2017-08-24 16:49:53.834] [INFO] console - redis ready
+[2017-08-24 16:49:53.835] [INFO] console - select redis db11
+[2017-08-24 16:49:57.745] [INFO] console -   [90m<--[39m [1mGET[22m [90m/users[39m
+[2017-08-24 16:49:57.760] [INFO] console - { Error: LoginRequired
+    at Object.assert (/Users/hully/hully/github/test2/common/helper.js:33:21)
+    at module.exports (/Users/hully/hully/github/test2/middlewares/auth.js:10:7)
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/hully/hully/github/test2/node_modules/_koa-router@7.2.1@koa-router/lib/router.js:345:16
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at allowedMethods (/Users/hully/hully/github/test2/node_modules/_koa-router@7.2.1@koa-router/lib/router.js:406:12)
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/hully/hully/github/test2/node_modules/_koa-router@7.2.1@koa-router/lib/router.js:345:16
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/hully/hully/github/test2/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-router@7.2.1@koa-router/lib/router.js:350:31)
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at views (/Users/hully/hully/github/test2/node_modules/_koa-views@5.2.1@koa-views/lib/index.js:61:12)
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18)
+    at module.exports (/Users/hully/hully/github/test2/middlewares/error-handle.js:8:15)
+    at dispatch (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
+    at next (/Users/hully/hully/github/test2/node_modules/_koa-compose@4.0.0@koa-compose/index.js:43:18) code: 402000, zh: '需要先登录' }
+[2017-08-24 16:49:57.776] [INFO] console -   [90m-->[39m [1mGET[22m [90m/users[39m [32m200[39m [90m30ms[39m [90m65b[39m
+[2017-08-24 17:34:01.809] [INFO] console - redis connect
+[2017-08-24 17:34:01.818] [INFO] console - redis ready
+[2017-08-24 17:34:01.819] [INFO] console - select redis db11
