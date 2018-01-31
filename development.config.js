@@ -3,7 +3,7 @@
 const development = {
   apps : [
     {
-      name      : 'test1',
+      name      : 'development',
       script    : 'bin/www',
       env: {
         NODE_ENV: "development"

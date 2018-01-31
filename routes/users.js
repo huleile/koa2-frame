@@ -54,4 +54,25 @@ router.post('/login', async (ctx, next) => {
   ctx.body = h.r(user);
 });
 
+
+
+/**
+ * @api {POST} /users/register Register
+ * @apiName Register
+ * @apiGroup User
+ * @apiDescription  注册，暂时只支持邮箱注册
+ * @apiParam (body) {String} email 邮箱账号
+ * @apiParam (body) {Number} password 密码
+ */
+router.post('/register', async (ctx, next) => {
+  let {body} = ctx.body;
+  let {email, password} = body;
+
+  h.assert(email && password, "InvalidParameter");
+  h.assert(_.isString(email) && h.emailReg.test(email), "InvalidEmail");
+  h.assert(_.isString(password) && password.length <= 15 && password.length >= 6, "InvalidPassword");
+
+  ctx.body = h.r("Hello world");
+});
+
 module.exports = router

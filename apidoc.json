@@ -1,7 +1,7 @@
 {
- "name": "koa-frame",
+ "name": "koa2-frame",
  "version": "0.0.1",
  "description": "api doc",
  "title": "API DOC",
- "url": "http://koa-frame.com"
+ "url": "http://koa2-frame.com"
 }

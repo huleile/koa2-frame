@@ -18,7 +18,11 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: false
         },
         authToken: DataTypes.STRING,
-        tokenExpire: DataTypes.DATE
+        tokenExpire: DataTypes.DATE,
+        activated: {                    // 是否邮箱激活, 0 未激活, 1 已激活
+            type: DataTypes.INTEGER,
+            defaultValues: 0
+        }
     }, {
         schema: 'public',
         classMethods: {

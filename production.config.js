@@ -3,7 +3,7 @@
 const production = {
   apps : [
     {
-      name      : 'test1',
+      name      : 'production',
       script    : 'bin/www',
       env: {
         NODE_ENV: "production"

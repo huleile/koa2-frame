@@ -3,7 +3,7 @@
 const test = {
   apps : [
     {
-      name      : 'test1',
+      name      : 'test',
       script    : 'bin/www',
       env: {
         NODE_ENV: "test"
@@ -12,4 +12,4 @@ const test = {
   ]
 }
 
-export test;
+module.exports = test;

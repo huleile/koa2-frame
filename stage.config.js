@@ -3,7 +3,7 @@
 const stage = {
   apps : [
     {
-      name      : 'test1',
+      name      : 'stage',
       script    : 'bin/www',
       env: {
         NODE_ENV: "stage"
